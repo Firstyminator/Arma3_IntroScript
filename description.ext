@@ -1,0 +1,26 @@
+
+Add this code after
+
+			class CfgNotifications
+			{
+				#include "client\CfgNotifications.hpp"
+			};
+
+in descriptions.ext
+
+----------------------------------------------------------------
+
+
+
+
+
+class CfgMusic
+{
+	tracks[]={};
+
+	class FirstyIntro
+	{
+		name = "FirstyIntro";
+		sound[] = {"intro.ogg", db+10, 1.0};
+	};
+};
